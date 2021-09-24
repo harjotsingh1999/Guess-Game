@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Guess Game</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_go">Go</string>
+    <string name="string_rules">Select a number below and find it in the game…</string>
+    <string name="string_welcome">Welcome</string>
+    <string name="string_lost">Uh-oh</string>
+    <string name="string_attempts">Attempts remaining : %1$d</string>
+    <string name="string_won">Yay!\n%1$d</string>
 </resources>

@@ -15,13 +15,13 @@ import com.example.guessgame.utils.Constants
 
 class SelectNumberFragment : Fragment(R.layout.fragment_select_number) {
 
-    lateinit var binding: FragmentSelectNumberBinding
+    private lateinit var binding: FragmentSelectNumberBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentSelectNumberBinding.inflate(layoutInflater, container, false)
         return binding.root
     }

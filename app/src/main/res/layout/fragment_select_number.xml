@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="@dimen/dimen_16dp"
     tools:context=".fragments.SelectNumberFragment">
 
     <TextView
@@ -13,15 +13,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Welcome"
+        android:text="@string/string_welcome"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         style="@style/TextAppearance.MaterialComponents.Body1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Select a number below and find it in the game..."
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:text="@string/string_rules"
         app:layout_constraintTop_toBottomOf="@id/welcome_text_view" />
 
     <NumberPicker
@@ -37,8 +37,8 @@
         android:id="@+id/go_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="48dp"
-        android:text="Go"
+        android:paddingHorizontal="@dimen/dimen_48dp"
+        android:text="@string/string_go"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
