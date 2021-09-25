@@ -2,7 +2,7 @@
 
 ### Select a number from the number picker, and find it among the nine tiles in three attempts.
 
-Used **Kotlin**, **Android Navigation components**, **Vew Binding**, and **Material design** for this project.
+Used **Kotlin**, **Android Navigation components**, **View Binding**, and **Material design** for this project.
 
 ### Screenshots
 
